@@ -1,0 +1,19 @@
+html,
+body {
+    margin: 2px;
+    padding: 0;
+}
+#main{
+    height: 98vh;
+    display: grid;
+    grid-template-rows: auto 30px;
+}
+.port-setting {
+    grid-row: 2/3;
+    width: 7rem;
+    position: absolute;
+}
+.plot-area {
+        display: grid;
+        grid-row: 1/2;
+}

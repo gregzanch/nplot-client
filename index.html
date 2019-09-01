@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>nplot</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+<script src="src/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div id ="main">
+    <div class="plot-area" id="plotly-plot"></div>
+    <div class="port-setting">
+      <div class="input-group input-group-sm flex-nowrap">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="port-label">Port</span>
+        </div>
+        <input id="port-value" type="text" class="form-control" placeholder="45921" value="45921" aria-label="port"
+          aria-describedby="port-label">
+      </div>
+    </div>
+  </div>
+
+    <script>
+      require('./src/renderer.js')
+    </script>
+  </body>
+</html>
+
+
+

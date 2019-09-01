@@ -1,0 +1,5 @@
+node_modules
+out
+res/icon.psd
+package-lock.json
+yarn.lock
